@@ -1,0 +1,19 @@
+{
+  "name": "mediorg",
+  "version": "1.0.0",
+  "description": "Media Organizer",
+  "main": "mediorg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hledoux/mediorg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hledoux/mediorg/issues"
+  },
+  "homepage": "https://github.com/hledoux/mediorg#readme"
+}
