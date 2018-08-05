@@ -116,10 +116,8 @@
       cm_commander.parse(process.argv);
 
       // extract command-line arguments
-      lo_this._ai_cisco_api_max_rate_cps = cm_commander.ciscoApiRateCps;
-      lo_this._ai_cisco_api_stop_after_calls = cm_commander.ciscoApiStopAfterCalls;
-      lo_this._ai_gini_can_cnt = cm_commander.giniCanCnt;
-      lo_this._as_gini_end_point = cm_commander.giniEndPoint;
+      // ##TODO##
+      // lo_this._ai_cisco_api_max_rate_cps = cm_commander.ciscoApiRateCps;
 
       f_console_verbosity_set(f_get_first_val(cm_commander.verbose, 0));
     }
