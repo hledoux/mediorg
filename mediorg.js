@@ -1,5 +1,9 @@
 #!/bin/env node
 
+
+// export NODE_PATH='./lib'
+
+
 const {
   f_console_fatal
 } = require("ccc_console");
@@ -10,7 +14,7 @@ const {
 
 
 try {
-  const lo_mediorg = new TTC_mediorg();
+  const lo_mediorg = new TC_mediorg();
   lo_mediorg.m_run();
 }
 
