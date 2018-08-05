@@ -1,0 +1,11 @@
+{
+  "name": "ccc_utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ccc_utils.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "",
+  "license": "ISC"
+}

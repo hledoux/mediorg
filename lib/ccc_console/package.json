@@ -1,0 +1,11 @@
+{
+  "name": "ccc_console",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ccc_console.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "",
+  "license": "ISC"
+}
