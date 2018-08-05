@@ -90,6 +90,10 @@
         .option("-v, --verbose", "increase verbosity (try: -v -v -v)", lf_opt_increase_verbosity, 0);
 
 
+      // Commander
+      // https://github.com/tj/commander.js/
+      // http://tj.github.io/commander.js/
+
       cm_commander
         .command('scan <dir>')
         .description('scan the given <dir> and look for media files')
@@ -97,6 +101,14 @@
           lo_this._m_scan_dir(ps_dir);
         });
 
+
+
+      // Create a digest from a file
+      // https://nodejs.org/api/crypto.html#crypto_crypto_createhash_algorithm_options
+
+
+      // Node EXIF
+      // https://github.com/gomfunkel/node-exif
 
 
 
