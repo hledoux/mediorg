@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hledoux/mediorg/issues"
   },
-  "homepage": "https://github.com/hledoux/mediorg#readme"
+  "homepage": "https://github.com/hledoux/mediorg#readme",
+  "dependencies": {
+    "exif": "^0.6.0"
+  }
 }
