@@ -4,7 +4,7 @@
   "description": "",
   "main": "ccc_console.js",
   "scripts": {
-    "test": ""
+    "test": "export PATH=$PATH:../bin; export NODE_PATH=$NODE_PATH:.:./node_modules ; mocha --reporter tap './test/mocha_*.js'"
   },
   "author": "",
   "license": "ISC"
